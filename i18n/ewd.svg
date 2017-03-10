@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+<style type="text/css">text { font-size: 14px;}</style>
+<title>W3C Working Draft</title>
+<filter id="insetshadow" x0="-50%" y0="-50%" width="200%" height="200%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="3"/> <!-- stdDeviation is how much to blur -->
+  <feOffset dx="2" dy="2" result="blur"/> <!-- how much to offset -->
+ <feComposite in2="SourceAlpha" operator="arithmetic"
+                                      k2="-1" k3="1" result="shadowDiff"/>
+                      <feFlood flood-color="black" flood-opacity="1"/>
+                      <feComposite in2="shadowDiff" operator="in"/>
+                      <feComposite in2="SourceGraphic" operator="over"/>
+</filter>
+<circle cx="50" cy="50" r="42"  stroke-width="0"  fill="#EAE3D5"  style="filter:url(#insetshadow)"/>
+<text x="50" y="50" text-anchor="middle" vertical-align="middle">Early WD</text>
+	<circle id="circle" cx="50" cy="50" r="42" transform="rotate(-90,50,50)" stroke-width="16" fill="none" stroke-linecap="round"  stroke="#E8941D" stroke-dasharray="120, 999"/>
+
+</svg>

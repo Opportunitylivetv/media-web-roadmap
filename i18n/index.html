@@ -1,59 +1,244 @@
 <!doctype html>
 <html lang="en">
-  <meta charset=utf-8>
-  <title>Roadmap of Security Technologies for the Web</title>
-  <header>
-    <h1>Internationalization requirements</h1>
-                <p>In order to ensure that users around the globe have access to features that are relevant to their culture, we need to understand what those features are, and how they should work. The first step is to gather the requirements from stakeholders. Then we need to help specification developers and browser/ebook implementers to find that information, so that they can cater for the end user's requirements in their technology.</p>
-                <p>This page only lists ongoing efforts. For a view of all available resources see <a href="https://www.w3.org/International/layout">Layout &amp; typography</a>.</p>
-  </header>
-  <main>
-    <section class="featureset well-deployed">
-      <h2>Evergreen documents</h2>
-      <p>The <a data-featureid="typography">Typography Index</a> points browser implementers and specification developers to information about how to support typographic features of scripts or writing systems from around the world, and also points to relevant information in specifications, to tests, and to useful articles and papers. It is not exhaustive, and will be added to regularly as more resources surface.</p>
-      <p>The <a data-featureid="type-samples">Type Samples Repository</a> is a place to find and contribute examples of typographic features in text, especially from non-Latin scripts.</p>
-      <table>
-      <thead><tr><th>Feature</th><th>Specification</th><th>Maturity</th><th>Current Implementations</th></tr></thead><tbody><tr>
-    <th rowspan="2">Resource indexes</th>
-    <td><a href="https://www.w3.org/TR/CSP2/">International text layout and typography index</a></td><td class="high maturity"><img src="https://www.w3.org/2013/09/wpd-rectrack-icons/rec.svg" alt="REC" width="50" height="53"></td><td><div>
-    <p>n/a</p></div></td></tr><tr>
-      <td><a href="https://www.w3.org/TR/SRI/">Type samples repository</a></td>
-      <td class="high maturity"><img src="https://www.w3.org/2013/09/wpd-rectrack-icons/rec.svg" alt="REC" width="50" height="53"></td><td><div>
-    <p>n/a</p></div></td></tr></tbody></table>
+<head>
+<title>Internationalization requirements - Roadmap of Security Technologies for the Web</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0072ff">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0072ff">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,700,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://w3c.github.io/mediartc-roadmap-ui/assets/css/theme.css">
+<link rel="stylesheet" href="https://w3c.github.io/mediartc-roadmap-ui/assets/css/roadmap.css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="../style.css">
+<style>
+td p { margin-top: 0; margin-bottom: 0; line-height: 1.2; font-size: 90%;  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <button id="side-nav-btn" type="button" name="sidenav-opener"><img src="https://w3c.github.io/mediartc-roadmap-ui/assets/img/icon-humberger.svg" alt="" height="15"></button>
+    <div class="brand"> <a href="https://www.w3.org/"><img src="https://w3c.github.io/mediartc-roadmap-ui/assets/img/w3c.svg" alt="W3C" height="30"></a> </div>
+  </div>
+</header>
+<main>
+  <div class="content-wrapper">
+    <section class="hero">
+      <div class="container">
+        <h1>Internationalization requirements</h1>
+        <p>In order to ensure that users around the globe have access to features that are relevant to their culture, we need to understand what those features are, and how they should work. The first step is to gather the requirements from stakeholders. Then we need to help specification developers and browser/ebook implementers to find that information, so that they can cater for the end user's requirements in their technology.</p>
+        <p>Finally, we need to identify the gaps in current technologies or implementations and set about reducing them. Much of the work in analysing and addressing gaps is done through GitHub issues or email, or by editors or implementers simply elaborating features in their work, but there are also sometimes projects specifically focused on this activity.</p>
+      </div>
     </section>
-    <section class="featureset well-deployed">
-      <h2>Documents in progress</h2>
-
-      <p data-feature="Authorization"><a href="https://w3c.github.io/alreq/">Text Layout Requirements for the Arabic Script</a> looks at the Arabic script as used for writing Standard Arabic and Persian. The document is currently an editor's draft. </p>
-      <p data-feature="Authentication"><a href="https://www.w3.org/TR/elreq/">Ethiopic Layout Requirements</a> looks at the Ethiopic script as used for writing Amharic and Tigrinya. A First Public Working Draft has been published for review and work continues on the editor's draft. </p>
-      <p data-feature="Secure contexts"><a href="https://www.w3.org/TR/clreq/">Requirements for Chinese Text Layout (中文排版需求)</a> follows the lead of the Japanese and Korean documents and describes the text layout needs for both Simplified and Traditional Chinese scripts. The document is written in English, and Simplified and Traditional Chinese. You can use a control near the top of the window to select a single-language view. </p>
-      <table>
-      <thead><tr><th>Feature</th><th>Specification</th><th>Maturity</th><th>Current Implementations</th></tr></thead><tbody><tr>
-    <th rowspan="3">Typographic requirements</th>
-    <td><a href="https://w3c.github.io/alreq/">Text Layout Requirements for the Arabic Script</a></td><td class="high maturity"><img src="https://www.w3.org/2013/09/wpd-rectrack-icons/rec.svg" alt="REC" width="50" height="53"></td><td><div>
-    <p>n/a</p></div></td></tr><tr>
-      <td><a href="https://www.w3.org/TR/elreq/">Ethiopic Layout Requirements</a></td>
-      <td class="high maturity"><img src="https://www.w3.org/2013/09/wpd-rectrack-icons/rec.svg" alt="REC" width="50" height="53"></td><td><div>
-    <p>n/a</p></div></td></tr>
-    <tr>
-      <td><a href="https://www.w3.org/TR/clreq/">Requirements for Chinese Text Layout (中文排版需求)</a></td>
-      <td class="high maturity"><img src="https://www.w3.org/2013/09/wpd-rectrack-icons/rec.svg" alt="REC" width="50" height="53"></td>
-      <td>n/a</td>
-    </tr>
-      </tbody>
-      </table>
-
+    <section class="main-content">
+      <div class="container">
+        <section class="featureset well-deployed">
+          <h2>Reference documents</h2>
+          <p>Both of these documents are ready to use now, but are constantly evolving and growing as new information becomes available.</p>
+          <p>The <a href="https://www.w3.org/TR/typography/">Typography Index</a> points browser implementers and specification developers to information about how to support typographic features of scripts or writing systems from around the world, and also points to relevant information in specifications, to tests, and to useful articles and papers. It is not exhaustive, and will be added to regularly as more resources surface.</p>
+          <p>The <a href="https://w3c.github.io/type-samples/">Type Samples Repository</a> is a place to find and contribute examples of typographic features in text, especially from non-Latin scripts.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Specification</th>
+                <th>Maturity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th rowspan="2">Resource indexes</th>
+                <td><a href="https://www.w3.org/TR/typography/">International text layout and typography index</a></td>
+                <td class="high maturity"><img src="./ref.svg" alt="REF" width="50" height="53"></td>
+              </tr>
+              <tr>
+                <td><a href="https://w3c.github.io/type-samples/">Type samples repository</a></td>
+                <td class="high maturity"><img src="./ref.svg" alt="REF" width="50" height="53"></td>
+              </tr>
+            </tbody>
+          </table>
+          <div></div>
+        </section>
+        <section class="featureset well-deployed">
+          <h2>Requirements documents</h2>
+          <p>These documents are being developed by task forces composed largely of users of a given script, and often by groups working in a language written in that script. The aim of these requirements documents is to describe how the script works, and the conventions for its use to represent native content. These documents do not describe solutions or gaps for a particular technology – that is done elsewhere. In this way the documents remain fully relevant for a wide range of technologies.</p>
+          <p><a href="https://www.w3.org/TR/jlreq/">Requirements for Japanese Text Layout (日本語組版処理の要件)</a> was the flagship in the development of requirements describing script use and layout. The information in this document has been widely used, and the process used for creating it was extremely effective. It was developed in Japan, by a task force using mailing lists and holding meetings in japanese, then converted to english for review. It was published in both languages. The Japanese Layout Task Force is no longer active, although the authors are still present on i18n Activity mailing lists. </p>
+          <p><a href="https://www.w3.org/TR/jlreq/">Requirements for Hangul Text Layout and Typography (한국어 텍스트 레이아웃 및 타이포그래피를 위한 요구사항)</a> provides requirements for handling the main Korean script, Hangul. This document was developed by a group in Korea. The document is written in both English and Korean. You can use a control near the top of the window to select a single-language view. </p>
+          <p><a href="https://www.w3.org/TR/arabic-math/">Arabic mathematical notation</a> provides requirements for handling the main Korean script, Hangul. This document was developed by a group in Korea. The document is written in both English and Korean. You can use a control near the top of the window to select a single-language view. </p>
+          <p><a href="https://www.w3.org/TR/clreq/">Requirements for Chinese Text Layout (中文排版需求)</a> follows the lead of the Japanese and Korean documents and describes the text layout needs for both Simplified and Traditional Chinese scripts. The document is written in English, and Simplified and Traditional Chinese. You can use a control near the top of the window to select a single-language view. </p>
+          <p><a href="https://www.w3.org/TR/elreq/">Ethiopic Layout Requirements</a> looks at the Ethiopic script as used for writing Amharic and Tigrinya. A First Public Working Draft has been published for review and work continues on the editor's draft. </p>
+          <p><a href="https://w3c.github.io/alreq/">Indic Layout Requirements</a> sets out to document the requirements for the major scripts in India. Currently coverage is limited to Devanagari (used for languages such as Hindi and Marathi), but material is planned in the future for Bengali, Punjabi, Tamil and Telugu scripts. </p>
+          <p><a href="https://w3c.github.io/alreq/">Requirements for Latin Text Layout and Pagination</a> are being developed by the Digital Publishing Interest Group. They aim to represent the requirements of the many languages using the Latin script. </p>
+          <p><a href="https://w3c.github.io/alreq/">Text Layout Requirements for the Arabic Script</a> looks at the Arabic script as used for writing Standard Arabic and Persian. The document is currently an editor's draft. </p>
+          <p><a href="https://w3c.github.io/alreq/">Requirements for Tibetan Text Layout and Typography</a> is still at an early stage, and we are looking for experts to contribute to the work of developing the document. Participation should reflect the needs of all communities using the Tibetan script. </p>
+          <p><a href="https://w3c.github.io/hlreq/">Hebrew Layout Requirements</a> will look at the requirements of the Hebrew script for writing Hebrew. We are in the process of setting up the group and recruiting participants. </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Specification</th>
+                <th>Maturity</th>
+                <th>Development versions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th rowspan="10">Typographic requirements</th>
+                <td><a href="https://www.w3.org/TR/jlreq/">Requirements for Japanese Text Layout (日本語組版処理の要件)</a></td>
+                <td class="high maturity"><img src="note.svg" alt="NOTE" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://github.com/w3c/jlreq/ja/">日本語</a></p>
+                    <p><a href="https://w3c.github.io/jlreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/jlreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://w3c.github.io/klreq/">Requirements for Hangul Text Layout and Typography (한국어 텍스트 레이아웃 및 타이포그래피를 위한 요구사항)</a></td>
+                <td class="high maturity"><img src="note.svg" alt="NOTE" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/klreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/klreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.w3.org/TR/arabic-math/">Arabic mathematical notation</a></td>
+                <td class="high maturity"><img src="note.svg" alt="NOTE" width="50" height="53"></td>
+                <td><div> </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.w3.org/TR/clreq/">Requirements for Chinese Text Layout (中文排版需求)</a></td>
+                <td class="high maturity"><img src="wd.svg" alt="WD" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/klreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/klreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.w3.org/TR/elreq/">Ethiopic Layout Requirements</a></td>
+                <td class="high maturity"><img src="wd.svg" alt="WD" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/elreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/elreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://w3c.github.io/elreq/">Indic Layout Requirements</a></td>
+                <td class="high maturity"><img src="ewd.svg" alt="Early WD" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/elreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/elreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.w3.org/TR/dpub-latinreq/">Requirements for Latin Text Layout and Pagination</a></td>
+                <td class="high maturity"><img src="ewd.svg" alt="Early WD" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="http://w3c.github.io/dpub-pagination/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/dpub-pagination">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://w3c.github.io/alreq/">Text Layout Requirements for the Arabic Script</a></td>
+                <td class="high maturity"><img src="ed.svg" alt="ED" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/alreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/alreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://w3c.github.io/tlreq/">Requirements for Tibetan Text Layout and Typography</a></td>
+                <td class="high maturity"><img src="ed.svg" alt="ED" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/tlreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/tlreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+              <tr>
+                <td><a href="https://w3c.github.io/hlreq/">Hebrew Layout Requirements</a></td>
+                <td class="high maturity"><img src="ed.svg" alt="ED" width="50" height="53"></td>
+                <td><div>
+                    <p><a href="https://w3c.github.io/hlreq/">Editor's draft</a></p>
+                    <p><a href="https://github.com/w3c/hlreq/">GitHub</a></p>
+                  </div></td>
+              </tr>
+            </tbody>
+          </table>
+          <div></div>
+        </section>
+        <section class="featureset exploratory-work">
+          <h2>Gap analysis documents</h2>
+          <p>These documents examine and make proposals about what needs for change for a particular script or language on the Web and in digital publications to adequately support the requirements of the end user. This section lists documents, but much of the work in analysing and addressing gaps is done through GitHub issues or email, or by editors or implementers simply elaborating features in their work.</p>
+          <p><a href="https://r12a.github.io/mongolian-variants/">Additional Requirements for Bidi in HTML &amp; CSS</a> documents work needed to improve handling of bidirectional content in Arabic, Hebrew, Thaana, and other predominantly right-to-left scripts. The document lists the problems, proposes solutions, and documents the outcome in HTML5 and the CSS Level 3 specifications. Contributors included people from around the world who struggled with these issues.</p>
+          <p><a href="https://www.w3.org/Submission/2017/SUBM-CSJTUWT-20170102/">Current Status of Japanese Typography Using Web Technologies</a> studies whether or not CSS and HTML are sufficient for the layout of paginated documents in Japan. Specifically, it studies requirements in two documents: W3C <cite>Requirements for Japanese Layout</cite> and EPUB3 <cite>Petition of Japanese typesetting from EBPAJ</cite>. It shows which requirement is covered by which CSS specification and supported by major browsers. </p>
+          <p><a href="https://r12a.github.io/mongolian-variants/">Notes on Mongolian variant forms</a> is not a work item of the W3C, but is being used to facilitate a discussion on a W3C mailing list about which shapes should be produced by fonts for Mongolian characters. Most letters have at least one isolated, initial, medial and final shape, but other shapes are produced by contextual factors, such as vowel harmony, and this work supports a movement to standardise those shapes. This standardisation is essential to support use of the Mongolian script on the Web.</p>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Specification</th>
+                  <th>Maturity</th>
+                  <th>Development versions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th rowspan="3">Gap analysis</th>
+                  <td><a href="https://r12a.github.io/mongolian-variants/">Additional Requirements for Bidi in HTML &amp; CSS</a><a href="https://www.w3.org/TR/jlreq/"></a></td>
+                  <td class="high maturity"><img src="note.svg" alt="NOTE" width="50" height="53"></td>
+                  <td><div>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.w3.org/Submission/2017/SUBM-CSJTUWT-20170102/">Current Status of Japanese Typography Using Web Technologies</a></td>
+                  <td class="high maturity"><img src="note.svg" alt="NOTE" width="50" height="53"></td>
+                  <td><div>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><a href="https://r12a.github.io/mongolian-variants/">Notes on Mongolian variant forms</a><a href="https://www.w3.org/TR/arabic-math/"></a></td>
+                  <td class="high maturity"><img src="wd.svg" alt="WD" width="50" height="53"></td>
+                  <td><div> </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section>
+          <h2>Features not covered by ongoing work</h2>
+          <dl>
+          </dl>
+        </section>
+      </div>
     </section>
-    <section class="featureset exploratory-work">
-      <h2>Exploratory work</h2>
-      <p data-feature="Authentication"><a href="https://w3c.github.io/tlreq/">Requirements for Tibetan Text Layout and Typography</a> is still at an early stage, and we are looking for experts to contribute to the work of developing the document. Participation should reflect the needs of all communities using the Tibetan script. </p>
-      <p data-feature="Authentication"><a href="https://w3c.github.io/hlreq/">Hebrew Layout Requirements</a> will look at the requirements of the Hebrew script for writing Hebrew. We are in the process of setting up the group and recruiting participants.</p>
+    <section class="contribute">
+      <div class="container">
+        <h2>See anything missing?</h2>
+        <p>If you know of use cases that cannot be achieved today with Web technologies, please let us know!</p>
+        <p>To that end, you can start a new topic in the <a class="discourse discoursecat" href="https://discourse.wicg.io/">W3C’s discourse forum</a> or raise an <a href="https://github.com/w3c/media-web-roadmap/issues/new">issue on the Github repository of this document</a>. </p>
+        <p class="call-to-action"> <a class="btn" href="https://github.com/w3c/media-web-roadmap/">Github</a> <a class="btn reverse discourse" href="https://discourse.wicg.io/">Discourse</a> </p>
+      </div>
     </section>
-    <section>
-      <h2>Features not covered by ongoing work</h2>
-      <dl>
-      </dl>
-    </section>
-  </main>
-  <script src="../js/generate.js"></script>
+  </div>
+</main>
+<aside id="side-nav">
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+</aside>
+<div id="mask"></div>
+<footer>
+  <div class="container">
+    <p> © <a href="https://www.w3.org/">W3C</a> <br>
+      <a href="https://www.csail.mit.edu/">MIT</a> · <a href="https://www.ercim.eu/">ERCIM</a> · <a href="https://www.keio.ac.jp/">Keio</a> · <a href="http://ev.buaa.edu.cn/">Beihang</a> <br>
+      Usage policies apply </p>
+    <p>Information on implementations of the APIs have been gathered from <a href="http://caniuse.com/">Can I use?</a>, <a href="https://www.chromestatus.com/features">Chrome Platform Status</a>, <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/status/">Microsoft Edge web platform features status and roadmap</a>, <a href="https://webkit.org/status/">WebKit Feature Status</a> </p>
+  </div>
+</footer>
+<script src="https://w3c.github.io/mediartc-roadmap-ui/assets/js/sidenav.js"></script><script src="https://w3c.github.io/mediartc-roadmap-ui/assets/js/app.js"></script>
+</body>
 </html>
